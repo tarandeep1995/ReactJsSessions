@@ -8,6 +8,7 @@ import CounterAppLifecycle from "./Lession6f";
 import EmojiConverter from "./Assignement1";
 import Carosel from "./Lession7";
 import ShoppingCart from "./Lession8";
+import LifecycleExample from "./Lession9";
 
 function App() {
   const [prop1, setprop1] = useState("value1");
@@ -30,7 +31,8 @@ function App() {
       {/* <CounterAppLifecycle />*/}
       {/* <EmojiConverter /> 
       <Carosel/> */}
-      <ShoppingCart/>
+      {/* <ShoppingCart/> */}
+      <LifecycleExample/>
     </div>
   );
 }
